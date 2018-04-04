@@ -11,7 +11,7 @@ var random_value = stuff[ Math.floor( Math.random() * 14 ) ];
 for (let i = 0; i < stuff.length; i++) {
     if(stuff[i] === random_value){
         console.log("==================");
-        console.log ("It matches! " + random_value + " found in" + (i+1) + " tries!");
+        console.log ("It matches! " + random_value + " found in " + (i+1) + " tries!");
         console.log("==================");
     } 
 }
